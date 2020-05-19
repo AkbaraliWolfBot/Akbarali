@@ -1,32 +1,31 @@
-# AkbaraliWolfBot.github.io
-Project website
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Project: My webpage</title>
-  <style>
-    h2 {
-      text-align: center;
-    }
-  </style>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<h1>Travel to samarkand!</h1>
-  <h3>Contents</h3>
-  <ul> 
-    <li><a href="#first-post">First day</a></li>
-    <li>Second day</li>
-    <li>Third day</li>
-  </ul>
-  <h2 id="first-post">First day</h2>
-  <p>
-    Modern Samarkand is divided into two parts: the old city, and the new city developed 
-    during the days of the Russian Empire and Soviet Union. The old city includes historical 
-    monuments, shops and old private houses, while the new city includes administrative 
-    buildings along with cultural centres and educational institutions.
-  </p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Registan_square_Samarkand.jpg" width="300">
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" max="100" value="1"> Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" max="100" value="1">
+        <input type="submit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
 </body>
+
 </html>
