@@ -2,10 +2,17 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [General Info](#General-Info)
+* [Technologies](#Technologies)
 
-## Instructions
+## General Info
 
-To get started, open `designs.js` and start building out the app's functionality.
+In this project we built a single-page web app that allows users to draw pixel art on a customizable canvas.
 
+## Technologies
+
+The project is mainly build with
+
+* JavaScript (ES6)
+* HTML 5
+* CSS 3
