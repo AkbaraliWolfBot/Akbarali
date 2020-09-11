@@ -7,6 +7,7 @@
 
 ## General Info
 
+This project was my first project.
 In this project I built a single-page web app that allows users to draw pixel art on a customizable canvas.
 
 ## Technologies
