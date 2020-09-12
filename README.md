@@ -7,7 +7,7 @@
 
 ## General Info
 
-This project was my first project when I tought and started doing rather professional projects using JavaScript. 
+This project was my first project when I learned and started doing rather professional projects using JavaScript. 
 In this project I built a single-page web app that allows users to draw pixel art on a customizable canvas.
 
 ## Technologies
