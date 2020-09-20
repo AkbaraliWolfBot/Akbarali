@@ -1,5 +1,6 @@
 // Selecting color input
-// Select size input
+// Selecting size input
+
 var height, width, color;
 $(document).ready(function() {
     $("#sizePicker").submit(function(event) {
