@@ -16,7 +16,6 @@ $(document).ready(function() {
 
 function makeGrid(x, y) {
     $("tr").remove();
-    // Your code goes here!
     for (var i = 1; i <= x; i++) {
         $("#pixelCanvas").append("<tr id=table" + i + "></tr>");
         for (var j = 1; j <= y; j++) {
