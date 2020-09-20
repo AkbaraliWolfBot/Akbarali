@@ -22,7 +22,7 @@ function makeGrid(x, y) {
             $("#table" + i).append("<td></td>");
         }
     }
-    // add color to cell 
+    // adding color to cell
     $("td").click(function(element) {
         color = $("#colorPicker").val();
         $(event.target).css("background-color", color);
