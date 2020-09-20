@@ -1,4 +1,4 @@
-// Select color input
+// Selecting color input
 // Select size input
 var height, width, color;
 $(document).ready(function() {
