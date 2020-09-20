@@ -11,8 +11,8 @@ $(document).ready(function() {
 
     })
 });
-// When size is submitted by the user, call makeGrid()
 
+// Creating a makeGrid() function and When size is submitted by the user, call the makeGrid()
 
 function makeGrid(x, y) {
     $("tr").remove();
